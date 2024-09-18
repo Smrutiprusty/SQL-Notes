@@ -49,3 +49,34 @@ INSERT INTO customers (name, email) VALUES ('John Doe', 'john@example.com');
 SELECT employees.name, departments.department_name
 FROM employees
 INNER JOIN departments ON employees.department_id = departments.id;
+```  
+
+# Indexes
+
+Learn how to improve the performance of your queries using indexes.
+
+# Subqueries
+
+Subqueries allow you to write queries within queries for better performance and more complex logic.
+
+# Transactions
+
+Understanding how to manage database transactions to ensure data integrity.
+
+# Optimization Tips
+
++ Avoid using SELECT * 
++ Use proper indexing
++ Optimize joins and subqueries
+  
+# Advanced Topics
+
+Explore advanced SQL features like window functions and CTEs to enhance the power of your queries.
+
+# Contributing
+Feel free to contribute by adding more examples, explanations, or optimization techniques to this repository. Fork the repo and create a pull request!
+
+
+
+  
+
