@@ -27,4 +27,9 @@ SQL (Structured Query Language) is the standard language for managing and manipu
 + **UPDATE**: Update existing data.
 + **DELETE**: Delete data from a database.
 
-# SQL Queries  
+# SQL Queries
+
+Sample Query 1:
+
+```sql
+SELECT * FROM employees WHERE department = 'HR';
