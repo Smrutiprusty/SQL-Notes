@@ -33,3 +33,9 @@ Sample Query 1:
 
 ```sql
 SELECT * FROM employees WHERE department = 'HR';
+```
+Sample Query 2:
+
+```sql
+INSERT INTO customers (name, email) VALUES ('John Doe', 'john@example.com');
+```
