@@ -39,3 +39,13 @@ Sample Query 2:
 ```sql
 INSERT INTO customers (name, email) VALUES ('John Doe', 'john@example.com');
 ```
+
+# Joins
+
++ **INNER JOIN**:
+
+```sql
+
+SELECT employees.name, departments.department_name
+FROM employees
+INNER JOIN departments ON employees.department_id = departments.id;
